@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Modern Student Resume</title>
+
+<style>
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Segoe UI", Arial, sans-serif;
+    background: #e9eef5;
+}
+
+/* Full Page Container */
+.container {
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+}
+
+/* Left Sidebar */
+.sidebar {
+    width: 30%;
+    background: #1f2a38;
+    color: white;
+    padding: 40px 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* Profile Picture Circle */
+.profile-pic {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    background: #ccc;
+    margin-bottom: 20px;
+    background-image: url('profile.jpg'); /* Replace with your image */
+    background-size: cover;
+    background-position: center;
+    border: 4px solid white;
+}
+
+/* Divider Line */
+.divider {
+    width: 100%;
+    height: 1px;
+    background: rgba(255,255,255,0.3);
+    margin: 20px 0;
+}
+
+.sidebar h2 {
+    margin-bottom: 10px;
+    font-size: 18px;
+    letter-spacing: 1px;
+}
+
+.sidebar p,
+.sidebar li {
+    font-size: 14px;
+    margin-bottom: 8px;
+}
+
+.sidebar ul {
+    list-style: none;
+}
+
+/* Main Content */
+.main {
+    width: 70%;
+    background: white;
+    padding: 50px 60px;
+}
+
+.main h1 {
+    font-size: 32px;
+    color: #1f2a38;
+}
+
+.main h3 {
+    margin-top: 5px;
+    color: #555;
+    font-weight: normal;
+}
+
+.section {
+    margin-top: 40px;
+}
+
+.section h2 {
+    font-size: 20px;
+    margin-bottom: 10px;
+    color: #1f2a38;
+    border-bottom: 2px solid #e0e6ed;
+    padding-bottom: 5px;
+}
+
+.section p,
+.section li {
+    margin-top: 8px;
+    line-height: 1.6;
+    color: #333;
+}
+
+.section ul {
+    padding-left: 18px;
+}
+</style>
+</head>
+
+<body>
+
+<div class="container">
+
+    <!-- Sidebar -->
+    <div class="sidebar">
+
+        <div class="profile-pic"></div>
+
+        <h2>Contact</h2>
+        <p>Email: your.email@example.com</p>
+        <p>Phone: +63 XXX XXX XXXX</p>
+        <p>Location: Cebu, Philippines</p>
+
+        <div class="divider"></div>
+
+        <h2>Skills</h2>
+        <ul>
+            <li>Networking & Subnetting</li>
+            <li>Cisco Packet Tracer</li>
+            <li>HTML & CSS</li>
+            <li>Basic Troubleshooting</li>
+        </ul>
+
+        <div class="divider"></div>
+
+        <h2>Tools</h2>
+        <ul>
+            <li>VS Code</li>
+            <li>Git & GitHub</li>
+            <li>Packet Tracer</li>
+        </ul>
+
+    </div>
+
+    <!-- Main Content -->
+    <div class="main">
+
+        <h1>Your Name</h1>
+        <h3>Computer Engineering Student</h3>
+
+        <div class="section">
+            <h2>Profile</h2>
+            <p>
+                Motivated computer engineering student with strong foundational
+                knowledge in networking and system configuration. Passionate
+                about building efficient systems and continuously improving
+                technical skills through hands-on projects.
+            </p>
+        </div>
+
+        <div class="section">
+            <h2>Education</h2>
+            <p>
+                <strong>Your University</strong><br>
+                Bachelor of Science in Computer Engineering<br>
+                2022 – Present
+            </p>
+        </div>
+
+        <div class="section">
+            <h2>Projects</h2>
+            <ul>
+                <li>Designed and configured LAN networks using subnetting and VLSM</li>
+                <li>Built a simple responsive website using HTML & CSS</li>
+                <li>Configured routers and switches in Cisco Packet Tracer</li>
+            </ul>
+        </div>
+
+        <div class="section">
+            <h2>Certifications</h2>
+            <ul>
+                <li>Networking Basics Certification</li>
+            </ul>
+        </div>
+
+    </div>
+
+</div>
+
+</body>
+</html>
+</html>
